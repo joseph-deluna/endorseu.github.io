@@ -1,0 +1,42 @@
+body {
+	letter-spacing: 1px;
+
+}
+#dabox {
+	width: 400px;
+	height: 280px;
+	margin: 100px auto;
+}
+#navbarDropdown {
+	height: 60px;
+	width: 100px;
+	border: 1px solid black;
+}
+#logout{
+	margin-left: 20px !important;
+}
+.reject {
+	border: 1px solid black;
+	padding: 7px;
+	color: red;
+	
+}
+.approve {
+	border: 1px solid black;
+	padding: 7px;
+	color: green;
+}
+.approve:hover {
+	background: rgb(85, 221, 79);
+}
+.reject:hover {
+	background: rgb(224, 139, 138);
+	
+}
+.approved {
+	background: rgb(85, 221, 79);
+}
+.rejected {
+	background: rgb(224, 139, 138);
+	
+}
